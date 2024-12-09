@@ -22,3 +22,4 @@ spec:
     helm:
       valuesObject:
         host: counter-backend.k8s.sikademo.com
+        replicas: 4
