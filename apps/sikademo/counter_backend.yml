@@ -21,5 +21,6 @@ spec:
     path: charts/counter
     helm:
       valuesObject:
-        host: registry.sikalabs.com/examples/meriis/registry/counter
+        host: counter-backend.k8s.sikademo.com
+        image: registry.sikalabs.com/examples/meriis/registry/counter
         replicas: 4
